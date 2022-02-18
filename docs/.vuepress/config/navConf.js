@@ -13,7 +13,7 @@ module.exports = [
 
 
   {
-    text: '前端', items: [
+    text: 'Frontend', items: [
       { text: 'JavaScript', link: '/frontend/javascript/Functional_programming.html' },
       { text: 'Vue', link: '/frontend/vue/vue_components.html' },
       { text: 'React', link: '/frontend/react/react_lifeCycle.html' },
@@ -21,18 +21,23 @@ module.exports = [
     ]
   },
   {
-    text: '后端', items: [
+    text: 'MobileX', items: [
+      { text: 'Android', link: '/MobileX/Android/Android_Studio_Project_Structure.html' },
+    ]
+  },
+  {
+    text: 'Backend', items: [
       { text: 'NodeJs', link: '/backend/nodejs/koa.md' },
     ]
   },
   {
-    text: '算法', items: [
+    text: 'Algorithm', items: [
       { text: '常用算法', link: '/algorithm/commen_algorithm/deepClone.md' },
       { text: '排序算法', link: '/algorithm/sorting_algorithm/sorting.md' },
       { text: '设计模式', link: '/algorithm/pattern/factory_pattern.html' },
     ]
   },
-  { text: '特效', link: '/effects/banner.md' },
+  { text: 'Effects', link: '/effects/banner.md' },
   {
     "text": "Contact",
     "icon": "reco-message",
